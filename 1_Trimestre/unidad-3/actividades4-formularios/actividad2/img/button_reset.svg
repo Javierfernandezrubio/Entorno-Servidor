@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410.667" height="138.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>button_reset</title>
+ <defs>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="1.3"/>
+  </filter>
+  <linearGradient id="linearGradient1759">
+   <stop offset="0" stop-opacity="0" stop-color="#ffffff" id="stop1760"/>
+   <stop offset="1" stop-color="#ffffff" id="stop1761"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1755">
+   <stop offset="0" stop-color="#db210d" id="stop1756"/>
+   <stop offset="1" stop-color="#761106" id="stop1757"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient1755" y2="0.99059" x2="0.505159" y1="0.009408" x1="0.505159" id="linearGradient1686"/>
+  <linearGradient xlink:href="#linearGradient1755" y2="-0.001496" x2="0.508599" y1="0.990351" x1="0.508599" id="linearGradient1754"/>
+  <linearGradient xlink:href="#linearGradient1759" y2="-0.171429" x2="0.481229" y1="0.371429" x1="0.481229" id="linearGradient1762"/>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0" id="svg_1"/>
+  </pattern>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g5828">
+    <rect ry="56.1431" rx="57.5827" height="124.726" width="371.529" y="4.9564" x="16.6374" stroke-width="6.25" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" stroke="url(#linearGradient1686)" fill-rule="nonzero" fill="url(#linearGradient1754)" id="rect1061"/>
+    <rect ry="38.8065" rx="48.2255" height="88.4711" width="346.304" y="13.3474" x="29.5265" stroke-width="6.25" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="0" fill-rule="nonzero" fill="url(#linearGradient1762)" id="rect1758"/>
+   </g>
+  </g>
+  <text filter="url(#svg_4_blur)" xml:space="preserve" y="74.8333" x="205.802" transform="matrix(0.948321 0 0 1 1.64365 11)" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#ffffff" style="cursor: text; pointer-events: inherit;" font-weight="bold" font-size="51" font-family="Arial" id="svg_4">Submit</text>
+ </g>
+</svg>

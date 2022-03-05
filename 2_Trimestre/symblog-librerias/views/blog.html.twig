@@ -1,0 +1,39 @@
+{% extends 'layout.html.twig' %}
+{% block body %}
+        <article class="blog">
+        <div class="date"><time datetime="{{ blog.created_at|date('c') }}">{{ blog.created_at|date('l, F j, Y') }}</time></div>
+        <header>
+        <h2><a href="blog/{{blog.id}}"></a></h2>
+        </header>
+        <img src="/img/{{blog.imagen}}" />
+        <div class="snippet">
+        <a href="blog/{{ blog.id }}"><h3>{{ blog.titulo }}</h3></a>
+        <p>{{blog.contenido [:100] }}</p>
+        <p class="continue"><a href="#">Continue reading...</a></p>
+        </div>
+        <footer class="meta">
+         <!--p>Comments: {{ blog.comments|length }}</p-->
+                 <p>Comments: <a href="#">
+                     {{ blog.comments|length }}
+                 </a></p>
+                 <p>Posted by <span class="highlight">{{blog.autor}}</span> at 
+                 {{ blog.created_at|date('h:iA')}}</p>
+                 <p>Tags: <span class="highlight">{{ blog.tags }}</span></p>
+            </footer>
+        </article>
+
+        {% include 'Comment/comentario.html.twig' %}
+
+        <p>Añadir comentario</p>
+    <form method="" action="">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="email">
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+{% endblock %}
